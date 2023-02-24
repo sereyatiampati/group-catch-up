@@ -10,12 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_02_23_211202) do
+ActiveRecord::Schema[7.0].define(version: 2023_02_24_060648) do
   create_table "students", force: :cascade do |t|
     t.string "name"
     t.integer "admission_no"
     t.string "course"
     t.integer "age"
+    t.integer "grade"
   end
 
 end
